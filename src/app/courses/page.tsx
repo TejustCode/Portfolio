@@ -1,15 +1,15 @@
-'use client'
-import Image from "next/image";
-import React from "react";
-import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
-import courseData from "@/data/music_courses.json";
-import { useSearchParams } from "next/navigation";
+'use client';
+import React, { useEffect, useState } from 'react';
+import Image from 'next/image';
+import { CardBody, CardContainer, CardItem } from '@/components/ui/3d-card';
+import courseData from '@/data/music_courses.json';
+import { useSearchParams } from 'next/navigation';
 
 function Page() {
-  const searchParams = useSearchParams();
-  const filter = searchParams.get("filter") || "All Courses";
+  const searchParams = typeof window !== 'undefined' ? useSearchParams() : null;
+  const filter = searchParams ? searchParams.get('filter') || 'All Courses' : 'All Courses';
 
-  const filteredCourses = filter === "All Courses"
+  const filteredCourses = filter === 'All Courses'
     ? courseData.courses
     : courseData.courses.filter(course =>
         course.title.toLowerCase().includes(filter.toLowerCase())
@@ -19,7 +19,7 @@ function Page() {
     <div className="min-h-screen bg-black py-12 pt-36">
       <h1 className="text-lg md:text-7xl text-center font-sans font-bold mb-8 text-white">
         {filter} ({filteredCourses.length})
-      </h1>  
+      </h1>
       <div className="flex flex-wrap justify-center mt-2">
         {filteredCourses.map((course, index) => (
           <CardContainer key={course.id || index} className="inter-var m-4">

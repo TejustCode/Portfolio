@@ -97,7 +97,7 @@
         "description": "Discover the techniques of blues guitar to add soul and depth to your playing.",
         "price": 189.99,
         "instructor": "Ethan Moore",
-        "isFeatured": true,
+        "isFeatured": false,
         "image": "https://images.unsplash.com/photo-1509098681029-b45e9c845022?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bWFuJTIwd2l0aCUyMGhlYWRwaG9uZXN8ZW58MHx8MHx8fDA%3D"  
       },
       {
@@ -107,7 +107,7 @@
         "description": "Understand the basics of scales and intervals in music theory.",
         "price": 99.99,
         "instructor": "John Doe",
-        "isFeatured": true,
+        "isFeatured": false,
         "image": "https://images.unsplash.com/photo-1509098681029-b45e9c845022?w=500&auto=format&fit=crop&q=60"
       },
       {
@@ -127,7 +127,7 @@
         "description": "Discover the importance of rhythm and time signatures in music theory.",
         "price": 109.99,
         "instructor": "Ethan Moore",
-        "isFeatured": true,
+        "isFeatured": false,
         "image": "https://images.unsplash.com/photo-1509098681029-b45e9c845022?w=500&auto=format&fit=crop&q=60"
       },
       {
@@ -137,7 +137,7 @@
         "description": "Master counterpoint techniques in composition for creating complex, harmonious music.",
         "price": 149.99,
         "instructor": "Sarah Lee",
-        "isFeatured": true,
+        "isFeatured": false,
         "image": "https://images.unsplash.com/photo-1509098681029-b45e9c845022?w=500&auto=format&fit=crop&q=60"
       },
       {
@@ -157,7 +157,7 @@
         "description": "Explore advanced harmonic structures and how to use them in composition.",
         "price": 139.99,
         "instructor": "Lucas Brown",
-        "isFeatured": true,
+        "isFeatured": false,
         "image": "https://images.unsplash.com/photo-1509098681029-b45e9c845022?w=500&auto=format&fit=crop&q=60"
       },
       {
@@ -197,7 +197,7 @@
         "description": "Learn the importance of song structure and arrangement in writing great songs.",
         "price": 139.99,
         "instructor": "Sophia White",
-        "isFeatured": true,
+        "isFeatured": false,
         "image": "https://images.unsplash.com/photo-1509098681029-b45e9c845022?w=500&auto=format&fit=crop&q=60"
       },
       {
