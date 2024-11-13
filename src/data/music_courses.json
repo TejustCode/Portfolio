@@ -99,6 +99,136 @@
         "instructor": "Ethan Moore",
         "isFeatured": true,
         "image": "https://images.unsplash.com/photo-1509098681029-b45e9c845022?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bWFuJTIwd2l0aCUyMGhlYWRwaG9uZXN8ZW58MHx8MHx8fDA%3D"  
+      },
+      {
+        "id": 11,
+        "title": "Basic Music Theory: Scales and Intervals",
+        "slug": "basic-music-theory-scales-intervals",
+        "description": "Understand the basics of scales and intervals in music theory.",
+        "price": 99.99,
+        "instructor": "John Doe",
+        "isFeatured": true,
+        "image": "https://images.unsplash.com/photo-1509098681029-b45e9c845022?w=500&auto=format&fit=crop&q=60"
+      },
+      {
+        "id": 12,
+        "title": "Basic Music Theory: Chords and Harmony",
+        "slug": "basic-music-theory-chords-harmony",
+        "description": "Learn the fundamentals of chords and harmony to enhance your musical understanding.",
+        "price": 89.99,
+        "instructor": "Jane Smith",
+        "isFeatured": false,
+        "image": "https://images.unsplash.com/photo-1509098681029-b45e9c845022?w=500&auto=format&fit=crop&q=60"
+      },
+      {
+        "id": 13,
+        "title": "Basic Music Theory: Rhythm and Time Signatures",
+        "slug": "basic-music-theory-rhythm-time-signatures",
+        "description": "Discover the importance of rhythm and time signatures in music theory.",
+        "price": 109.99,
+        "instructor": "Ethan Moore",
+        "isFeatured": true,
+        "image": "https://images.unsplash.com/photo-1509098681029-b45e9c845022?w=500&auto=format&fit=crop&q=60"
+      },
+      {
+        "id": 14,
+        "title": "Advanced Composition: Counterpoint Techniques",
+        "slug": "advanced-composition-counterpoint-techniques",
+        "description": "Master counterpoint techniques in composition for creating complex, harmonious music.",
+        "price": 149.99,
+        "instructor": "Sarah Lee",
+        "isFeatured": true,
+        "image": "https://images.unsplash.com/photo-1509098681029-b45e9c845022?w=500&auto=format&fit=crop&q=60"
+      },
+      {
+        "id": 15,
+        "title": "Advanced Composition: Orchestration and Arrangement",
+        "slug": "advanced-composition-orchestration-arrangement",
+        "description": "Learn the art of orchestration and arrangement for large ensembles.",
+        "price": 169.99,
+        "instructor": "Michael Johnson",
+        "isFeatured": false,
+        "image": "https://images.unsplash.com/photo-1509098681029-b45e9c845022?w=500&auto=format&fit=crop&q=60"
+      },
+      {
+        "id": 16,
+        "title": "Advanced Composition: Harmonic Structures",
+        "slug": "advanced-composition-harmonic-structures",
+        "description": "Explore advanced harmonic structures and how to use them in composition.",
+        "price": 139.99,
+        "instructor": "Lucas Brown",
+        "isFeatured": true,
+        "image": "https://images.unsplash.com/photo-1509098681029-b45e9c845022?w=500&auto=format&fit=crop&q=60"
+      },
+      {
+        "id": 17,
+        "title": "Advanced Composition: Motivic Development",
+        "slug": "advanced-composition-motivic-development",
+        "description": "Learn how to develop motifs and themes in your compositions.",
+        "price": 159.99,
+        "instructor": "Olivia Brooks",
+        "isFeatured": false,
+        "image": "https://images.unsplash.com/photo-1509098681029-b45e9c845022?w=500&auto=format&fit=crop&q=60"
+      },
+      {
+        "id": 18,
+        "title": "Song Writing: Lyric Writing Essentials",
+        "slug": "song-writing-lyric-writing-essentials",
+        "description": "Learn how to craft lyrics that connect with your audience emotionally.",
+        "price": 119.99,
+        "instructor": "Ella Carter",
+        "isFeatured": true,
+        "image": "https://images.unsplash.com/photo-1509098681029-b45e9c845022?w=500&auto=format&fit=crop&q=60"
+      },
+      {
+        "id": 19,
+        "title": "Song Writing: Melody and Harmony",
+        "slug": "song-writing-melody-harmony",
+        "description": "Explore melody and harmony techniques to enhance your songwriting.",
+        "price": 129.99,
+        "instructor": "Nathan Clark",
+        "isFeatured": false,
+        "image": "https://images.unsplash.com/photo-1509098681029-b45e9c845022?w=500&auto=format&fit=crop&q=60"
+      },
+      {
+        "id": 20,
+        "title": "Song Writing: Song Structure and Arrangement",
+        "slug": "song-writing-song-structure-arrangement",
+        "description": "Learn the importance of song structure and arrangement in writing great songs.",
+        "price": 139.99,
+        "instructor": "Sophia White",
+        "isFeatured": true,
+        "image": "https://images.unsplash.com/photo-1509098681029-b45e9c845022?w=500&auto=format&fit=crop&q=60"
+      },
+      {
+        "id": 21,
+        "title": "Song Writing: Writing for Different Genres",
+        "slug": "song-writing-writing-for-different-genres",
+        "description": "Master writing for different genres, including pop, rock, and indie.",
+        "price": 149.99,
+        "instructor": "George Miller",
+        "isFeatured": false,
+        "image": "https://images.unsplash.com/photo-1509098681029-b45e9c845022?w=500&auto=format&fit=crop&q=60"
+      },
+      {
+        "id": 22,
+        "title": "Music Production: Introduction to DAWs",
+        "slug": "music-production-introduction-to-daws",
+        "description": "Learn the basics of using Digital Audio Workstations (DAWs) to produce music.",
+        "price": 109.99,
+        "instructor": "Liam Scott",
+        "isFeatured": true,
+        "image": "https://images.unsplash.com/photo-1509098681029-b45e9c845022?w=500&auto=format&fit=crop&q=60"
+      },
+      {
+        "id": 23,
+        "title": "Music Production: Mixing and Mastering Techniques",
+        "slug": "music-production-mixing-mastering-techniques",
+        "description": "Learn how to mix and master your tracks to get a professional sound.",
+        "price": 159.99,
+        "instructor": "Amelia Moore",
+        "isFeatured": false,
+        "image": "https://images.unsplash.com/photo-1509098681029-b45e9c845022?w=500&auto=format&fit=crop&q=60"
       }
     ]
   }
