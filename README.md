@@ -1,7 +1,12 @@
-# Music School Courses
+# Portfolio
+Welcome to my Portfolio! 🚀
 
-A fully frontend and animated website showcasing various music courses, with data managed through JSON. Users can explore available courses based on their requirements, and contact providers for more information. Built for a seamless and responsive user experience.
+This is a showcase of my skills, projects, and accomplishments as a Full Stack Developer. Here, you’ll find details about my personal and professional journey, along with the technologies I work with and the projects I’ve developed.
 
-Technologies : Next JS , Typescript , Aceternity UI , JSON (Data Management)
+Features
+Expertise: Learn more about my skills, and expertise.
+Projects: Explore the various projects I’ve worked on, including both personal and collaborative projects.
+Connect Me: Get in touch with me for any queries, collaborations, or opportunities.
 
-Explore here - https://music-school-courses.vercel.app/
+Technologies Used
+Frontend: TypeScript , Node Js , Aceternity UI
