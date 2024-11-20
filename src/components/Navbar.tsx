@@ -21,7 +21,9 @@ function Navbar({ className }: { className?: string }) {
               href={`/${item === "Home" ? "" : item.toLowerCase().replace(" ", "-")}`}
               className={cn(
                 "relative px-2 text-lg after:content-[''] after:absolute after:left-0 after:bottom-[-3px] after:h-[3px] after:w-full after:scale-x-0 after:bg-white dark:after:bg-sky-500 after:transition-transform after:duration-300 hover:after:scale-x-100",
-                active === item ? "after:scale-x-100" : ""
+                active === item ? "after:scale-x-100" : "",
+                // Add text color classes for light and dark modes
+                "text-white dark:text-white"
               )}
               onClick={() => handleSetActive(item)}
             >
