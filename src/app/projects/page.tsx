@@ -38,7 +38,7 @@ const projectData = [
 
 function ProjectsSec() {
   return (
-    <div id="projectsSec" className="w-full mt-12">
+    <div className="min-h-screen bg-black py-12 pt-6">
       <Timeline
         data={projectData.map((project) => ({
           title: project.title,

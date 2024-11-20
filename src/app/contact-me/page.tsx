@@ -4,10 +4,10 @@ import { LinkPreview } from "@/components/ui/link-preview";
 
 function AboutSec() {
   return (
-    <div className="flex flex-col items-center justify-center mt-40 text-center px-4 sm:px-8 md:px-16">
-      <h2 className="text-4xl mb-6">Let's Collaborate!</h2>
+    <div className="min-h-screen bg-black py-12 pt-36">
+      <h2 className="text-4xl mb-6 text-white text-center mt-8">Let's Collaborate!</h2>
       <div className="flex flex-col items-center text-center my-12">
-        <p className="text-xl mb-8">Feel free to reach out for collaboration or opportunities!</p>
+        <p className="text-xl mb-8 text-white text-center">Feel free to reach out for collaboration or opportunities!</p>
         <div className="flex flex-wrap justify-center gap-8 mt-2">
           <LinkPreview url="https://github.com/TejustCode" className="font-bold">
             <svg

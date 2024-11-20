@@ -19,13 +19,13 @@ const technologies = [
 
 function Skills() {
   return (
-    <div>
+    <div className="min-h-screen bg-black py-12 pt-12">
       {/* Title */}
       <motion.h1
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, ease: "easeInOut" }}
-        className="text-2xl md:text-4xl font-bold text-neutral-700 dark:text-white text-center mb-12 mt-32 z-10"
+        className="text-2xl md:text-4xl bg-black font-bold text-neutral-700 dark:text-white text-center mb-12 mt-32 z-10"
       >
         Technologies I Use
       </motion.h1>
