@@ -1,7 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
 import React from "react";
-import { HeroHighlight } from "@/components/ui/hero-highlight";
 
 const technologies = [
   { name: "Java", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJZGwa6BKb_TT1zoteRTog7FXQAbxixJ6F-w&s" },
@@ -20,35 +19,55 @@ const technologies = [
 
 function Skills() {
   return (
-    <HeroHighlight>
+    <div>
+      {/* Title */}
       <motion.h1
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, ease: "easeInOut" }}
-        className="text-3xl md:text-5xl font-bold text-neutral-700 dark:text-white text-center mb-12"
+        className="text-2xl md:text-4xl font-bold text-neutral-700 dark:text-white text-center mb-12 mt-32 z-10"
       >
+        Technologies I Use
       </motion.h1>
 
-      <div className="grid cursor-pointer mt-28 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4 sm:px-6 md:px-8">
-        {technologies.map((tech, idx) => (
-          <motion.div
-            key={idx}
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.5, delay: idx * 0.1 }}
-            className="bg-black bg-opacity-70 dark:bg-black dark:bg-opacity-80 rounded-lg shadow-inner shadow-sky-300 p-6 flex flex-col items-center justify-center text-center transform transition-all duration-300 hover:scale-110 hover:shadow-pink-300"
-          >
-            <img
-              src={tech.image} 
-              alt={tech.name}
-              className="w-20 h-20 mb-4 object-contain"
-            />
-            <h2 className="text-xl font-bold text-white">{tech.name}</h2>
-          </motion.div>
-        ))}
+      {/* Grid Section */}
+      <div className="mx-auto max-w-screen-xl px-4 sm:px-8 md:px-12">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 justify-center">
+          {technologies.map((tech, idx) => (
+            <motion.div
+              key={idx}
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.5, delay: idx * 0.1 }}
+              className="bg-black bg-opacity-70 dark:bg-black dark:bg-opacity-80 rounded-lg shadow-inner shadow-sky-300 p-6 flex flex-col items-center justify-center text-center transform transition-all duration-300 hover:scale-110 hover:shadow-pink-300 mb-4"
+            >
+              <img
+                src={tech.image}
+                alt={tech.name}
+                className="w-20 h-20 mb-4 object-contain"
+              />
+              <h2 className="text-xl font-bold text-white">{tech.name}</h2>
+            </motion.div>
+          ))}
+        </div>
       </div>
-    </HeroHighlight>
+    </div>
   );
 }
 
 export default Skills;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
