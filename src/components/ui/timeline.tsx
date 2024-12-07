@@ -37,7 +37,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
       className="w-full bg-white dark:bg-black font-sans md:px-10"
       ref={containerRef}
     >
-      <div className="max-w-7xl mt-32 mx-auto py-10 px-4 md:px-8 lg:px-10">
+      <div className="max-w-7xl mt-24 mx-auto py-10 px-4 md:px-8 lg:px-10">
         <h2 className="text-lg md:text-4xl mb-4 text-black dark:text-white max-w-4xl">
           Projects That Define My Path
         </h2>

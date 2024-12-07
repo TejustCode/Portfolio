@@ -14,11 +14,26 @@ import imgb1 from "@/assets/WBimg1.png";
 import imgb2 from "@/assets/WBimg2.png";
 import imgb3 from "@/assets/WBimg3.png";
 import imgb4 from "@/assets/WBimg4.png";
+import imgc1 from "@/assets/simg1.png"
+import imgc2 from "@/assets/simg2.png"
+import imgc3 from "@/assets/simg3.png"
+import imgc4 from "@/assets/simg4.png"
 
 const projectData = [
   {
     title: "Music School Courses",
-    description: "Developed a fully animated website for a music school, enabling users to view and explore courses. Designed a responsive, user-friendly UI with smooth navigation for enhanced user experience.",
+    description: (
+      <span>
+        Developed a fully animated website for a music school, enabling users to view and explore courses. Designed a responsive, user-friendly UI with smooth navigation for enhanced user experience.    
+        <a 
+          href="https://music-school-courses.vercel.app/" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="text-blue-500 ml-3"
+        >
+          Click Here to Explore
+        </a>
+      </span>),
     techstack: "TypeScript, Next.js, Aceternity UI",
     images: [img1, img2, img3, img4],
   },
@@ -33,6 +48,12 @@ const projectData = [
     description: "Web Blogger is a user-friendly platform that allows you to create and manage your own blog effortlessly. With customizable templates and an intuitive interface, you can share your thoughts, stories, and expertise with the world. Whether you're a seasoned writer or just starting out, Web Blogger makes it easy to publish your ideas and connect with your audience.",
     techstack: "Java, Spring MVC, JSP , Web Tech",
     images: [imgb1, imgb2, imgb3, imgb4],
+  },
+  {
+    title: "Spotify-Clone",
+    description: "The Spotify-clone project is a music streaming application that mimics the core features of Spotify, allowing users to browse, play, and manage music tracks. It is designed with a modern UI and incorporates essential functionalities for an immersive user experience.",
+    techstack: "React JS , Tailwind CSS",
+    images: [imgc1, imgc2, imgc3, imgc4],
   }
 ];
 

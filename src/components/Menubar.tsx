@@ -44,7 +44,7 @@ function Menubar() {
         className="dark:bg-black bg-white text-black dark:text-white flex items-center space-x-2"
       >
         <ContactLogo />
-        <span>Connect Me</span>
+        <span>Contact Me</span>
       </HoverBorderGradient>
         </Link>
       </div>
