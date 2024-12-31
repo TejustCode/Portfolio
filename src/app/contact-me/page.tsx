@@ -45,7 +45,7 @@ function AboutSec() {
       </div>
       <div className="mt-8 flex justify-center items-center">
         <a
-          href="/doc/cv.pdf" // Replace with the correct path to your CV file
+          href="/doc/Tejas (Software Developer).pdf" 
           download
           className="py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg hover:bg-blue-700 transition duration-300"
         >
